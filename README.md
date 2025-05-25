@@ -1,1 +1,1 @@
-# LSTM_FIRE_PREDICTION
+# Fire_curve_predictor
