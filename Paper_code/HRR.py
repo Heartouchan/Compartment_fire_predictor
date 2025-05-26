@@ -79,8 +79,8 @@ for idx, row in data.iterrows():
     t, HRR = compute_hrr_curve(A, t_alpha, Y)
 
     # Sample every 60th point
-    mask = (t % 60 == 0)  # 选择 60s 的整数倍
-    t_sampled = (t[mask] / 60).astype(int)  # 转换为分钟
+    mask = (t % 60 == 0)  # 60s integral
+    t_sampled = (t[mask] / 60).astype(int)  # to min
     HRR_sampled = HRR[mask]
 
     # Store data
@@ -94,7 +94,7 @@ for idx, row in data.iterrows():
 df_output = pd.DataFrame(dict([(k, pd.Series(v)) for k, v in hrr_dict.items()]))
 
 # Save to CSV
-df_output.to_csv("HRR.csv", index=False)
+df_output.to_csv("LSTM_HRR_Train.csv", index=False)
 
 # Customize plot
 plt.xlabel("Time (s)")
