@@ -29,7 +29,12 @@ Compartment width (m): 5
 Compartment height (m): 3
 ```
 
-The predictor is able to generate a group of fires. 
+The predictor is able to generate a group of fires. And the fire temperature file is produced once the calculation finished.
+<p align="center">
+  <img src="Example.png" width="700" alt="Example of generated fire curves"/>
+  <br>
+  <em>Example of generated fire curves</em>
+</p>
 
 
 ## 📚 References
