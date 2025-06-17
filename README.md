@@ -21,7 +21,7 @@ Install necessary pacakages listed from requirement.txt,
 ```bash
 pip install -r requirements.txt
 ```
-User can also run the _run_fire_predidctor.bat_ to start the calculation.
+Simply, the user can also run the _run_fire_predidctor.bat_ to start the calculation.
 
 Run the program.py and provide input csv file. The input file should include fire load density (first column), fire growth rate (second column), and the opening factor (third column). For instance,
 ```bash
@@ -37,6 +37,8 @@ The predictor is able to generate a group of fires. And the fire temperature fil
   <br>
   <em>Example of generated fire curves</em>
 </p>
+
+Please contact touch01@student.ubc.ca for any problem, suggestion, and recommedation.
 
 
 ## 📚 References
