@@ -1,6 +1,6 @@
 # Fire_curve_predictor
 
-This program is based on the paper '_Fragility Assessment of Timber Frame Building Under Compartment Fire Exposure: Implementation of LSTM Models for Fire Temperature Prediction_', Tongchen Han and Solomon Tesfamariam, under review in _Structural Safety_.
+This program is based on the paper '_Fragility Assessment of Timber Frame Building Under Compartment Fire Exposure: Implementation of LSTM Models for Fire Temperature Prediction_', Tongchen Han and Solomon Tesfamariam.
 
 
 The fire curve predictor is to generate timber compartment fires, developed based on the long short-term memory network and one zone model [1]. The predictor considers inputs of **fire load density**, **opening factor**, and **fire growth rate** for one designed compartment. The user is allowed to define the compartment length, width, and height. 
@@ -21,6 +21,8 @@ Install necessary pacakages listed from requirement.txt,
 ```bash
 pip install -r requirements.txt
 ```
+User can also run the _run_fire_curve_predidctor_ to start the calculation.
+
 Run the program.py and provide input csv file. The input file should include fire load density (first column), fire growth rate (second column), and the opening factor (third column). For instance,
 ```bash
 Input file path (C1: Fire load density (MJ/m²); C2: Fire growth rate (s); C3: Opening factor): Input.csv
