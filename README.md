@@ -21,7 +21,7 @@ Install necessary pacakages listed from requirement.txt,
 ```bash
 pip install -r requirements.txt
 ```
-User can also run the _run_fire_curve_predidctor_ to start the calculation.
+User can also run the _run_fire_predidctor_ to start the calculation.
 
 Run the program.py and provide input csv file. The input file should include fire load density (first column), fire growth rate (second column), and the opening factor (third column). For instance,
 ```bash
