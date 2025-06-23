@@ -3,7 +3,7 @@ title Fire Curve Predictor Launcher
 echo Checking Python environment...
 
 
-REM 切换到当前目录
+REM 
 cd /d %~dp0
 
 echo Installing required packages (if not already installed)...
