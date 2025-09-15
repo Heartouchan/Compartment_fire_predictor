@@ -14,7 +14,7 @@ git clone https://github.com/Heartouchan/Compartment_fire_predictor.git
 
 Change directory to the program,
 ```bash
-cd Fire_curve_predictor\Program
+cd Compartment_fire_predictor\Program
 ```
 
 Install necessary pacakages listed from requirement.txt,
