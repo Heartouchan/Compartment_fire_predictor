@@ -1,15 +1,15 @@
-# Fire_curve_predictor
+# Compartment_fire_predictor
 
-This program is based on the paper '_Fragility Assessment of Timber Frame Building Under Compartment Fire Exposure: Implementation of LSTM Models for Fire Temperature Prediction_', Tongchen Han and Solomon Tesfamariam.
+This program is based on the paper '_Implementation of LSTM Network for Temperature-time Curve Prediction of Mass Timber Compartment Fire_', Tongchen Han and Solomon Tesfamariam.
 
 
-The fire curve predictor is to generate timber compartment fires, developed based on the long short-term memory network and one-zone model [1]. The predictor considers inputs of **fire load density**, **opening factor**, and **fire growth rate** for one designed compartment. The user is allowed to define the compartment length, width, and height. 
+The compartment fire predictor is to generate timber compartment fires, developed based on the long short-term memory network and one-zone model [1]. The predictor considers inputs of **fire load density**, **opening factor**, **fire growth rate**, and **Exposed timber surface area** for one designed compartment. The user is allowed to define the **compartment length, width, and height**. 
 
 ## 📌 Usage
 
-The fire curve predictor can be download from this repository.
+The compartment fire predictor can be download from this repository.
 ```bash
-git clone https://github.com/Heartouchan/Fire_curve_predictor.git
+git clone https://github.com/Heartouchan/Compartment_fire_predictor.git
 ```
 
 Change directory to the program,
@@ -23,9 +23,9 @@ pip install -r requirements.txt
 ```
 Simply, the user can run the _run_fire_predidctor.bat_ to complete the installation of required packages.
 
-Run the program.py and provide input csv file. The input file should include fire load density (first column), fire growth rate (second column), and the opening factor (third column). For instance,
+Run the program.py and provide input csv file. The input file should include fire load density (first column), fire growth rate (second column), the opening factor (third column), and exposed surface area (fourth column). For instance,
 ```bash
-Input file path (C1: Fire load density (MJ/m²); C2: Fire growth rate (s); C3: Opening factor): Input.csv
+Input file path (C1: Fire load density (MJ/m²); C2: Fire growth rate (s); C3: Opening factor; C4: Exposed surface area (m2)): Input.csv
 Compartment length (m): 5
 Compartment width (m): 5
 Compartment height (m): 3
