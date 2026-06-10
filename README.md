@@ -1,6 +1,6 @@
 # Compartment_fire_predictor
 
-This program is based on the paper '_Implementation of LSTM Network for Temperature-time Curve Prediction of Mass Timber Compartment Fire_', Tongchen Han and Solomon Tesfamariam.
+This program is based on the paper '_Implementation of LSTM Network for Temperature-time Curve Prediction of Mass Timber Compartment Fire_', Tongchen Han and Solomon Tesfamariam. Published in Fire Safety Journal.
 
 
 The compartment fire predictor is to generate timber compartment fires, developed based on the long short-term memory network and one-zone model [1]. The predictor considers inputs of **fire load density**, **opening factor**, **fire growth rate**, and **Exposed timber surface area** for one designed compartment. The user is allowed to define the **compartment length, width, and height**. 
