@@ -42,13 +42,21 @@ Please contact touch01@student.ubc.ca for any problem, suggestion, and recommeda
 Citation of the paper:
 
 @article{han2026implementation,
+
   title={Implementation of LSTM network for generating design temperature--time curves of mass timber compartment fire},
+  
   author={Han, Tongchen and Tesfamariam, Solomon},
+  
   journal={Fire Safety Journal},
+  
   volume={164},
+  
   pages={104888},
+
   year={2026},
+  
   publisher={Elsevier}
+  
 }
 
 ## 📚 References
