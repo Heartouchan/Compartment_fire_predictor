@@ -39,7 +39,17 @@ The predictor is able to generate a group of fires. And the fire temperature fil
 </p>
 
 Please contact touch01@student.ubc.ca for any problem, suggestion, and recommedation.
+Citation of the paper:
 
+@article{han2026implementation,
+  title={Implementation of LSTM network for generating design temperature--time curves of mass timber compartment fire},
+  author={Han, Tongchen and Tesfamariam, Solomon},
+  journal={Fire Safety Journal},
+  volume={164},
+  pages={104888},
+  year={2026},
+  publisher={Elsevier}
+}
 
 ## 📚 References
 [1] Cadorin, J. F., Pintea, D., & Franssen, J. M. (2001). The design fire tool OZone V2. 0-Theoretical description and validation on experimental fire tests. Rapport interne SPEC/2001_01 University of Liege.
